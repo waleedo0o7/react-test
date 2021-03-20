@@ -40,9 +40,18 @@ section , footer#footer{
 
     section#jobs-section {
         background: #e9ecef;
+        .one-job {
+            background: #fff;
+            padding: 15px;
+        }
     }
 }
 
-footer#footer h1 {
-    color: #fff;
+footer#footer{
+    padding: 15px;
+    p {
+        color: #fff;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+    }
 }
